@@ -1,0 +1,38 @@
+body {
+  background-image: url('https://cdnm.westwing.com.br/magazine/app/uploads/br/2015/03/1FloresOutono.jpg');
+  background-size: auto 100vh;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  height: 100vh;
+  }
+
+.menu{
+  background-color: none;
+}
+
+.menu ul {
+display: flex; 
+justify-content: space-between;  
+}
+
+.menu li {
+  list-style:none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+color: black;  
+text-align: center;
+}
+
+.site-subtitle {
+font-style: italic;
+}
